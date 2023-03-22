@@ -25,7 +25,6 @@ while ($row_category = mysqli_fetch_array($cek_category)) {
             'description' => $row_product['description'],
             'image' => $row_product['image'],
             'price' => $row_product['price'],
-            'price' => $row_product['price'],
             'status' => $row_product['status'],
             'created_at' => $row_product['created_at'],
 
